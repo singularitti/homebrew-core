@@ -26,7 +26,7 @@ class Pyrefly < Formula
 
   test do
     # Test version output
-    assert_match "pyrefly 0.18.0", shell_output("#{bin}/pyrefly --version")
+    assert_match version.to_s, shell_output("#{bin}/pyrefly --version")
     
     # Test help output
     shell_output("#{bin}/pyrefly --help")
