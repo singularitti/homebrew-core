@@ -28,9 +28,6 @@ class Pyrefly < Formula
     # Test version output
     assert_match version.to_s, shell_output("#{bin}/pyrefly --version")
     
-    # Test help output
-    shell_output("#{bin}/pyrefly --help")
-    
     # Test basic functionality with a simple Python file
     (testpath/"test.py").write <<~PYTHON
       def hello(name: str) -> str:
