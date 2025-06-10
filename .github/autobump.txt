@@ -111,6 +111,7 @@ arcade-learning-environment
 archi-steam-farm
 arduino-cli
 arelo
+ares
 argc
 argo
 argocd
@@ -281,6 +282,7 @@ bedops
 bee
 behaviortree.cpp
 bench
+benchi
 bender
 benthos
 berglas
@@ -575,6 +577,7 @@ clive
 cljfmt
 cloc
 clojure
+clojure-lsp
 clojurescript
 closure-compiler
 cloud-nuke
@@ -697,6 +700,7 @@ cracklib
 crane
 crates-tui
 crd2pulumi
+credo
 cri-tools
 crispy-doom
 croaring
@@ -924,6 +928,7 @@ duplicity
 duply
 dust
 dvc
+dvisvgm
 dwarfs
 dwarfutils
 dwm
@@ -942,6 +947,7 @@ earthly
 easeprobe
 easy-rsa
 easyengine
+easyrpg-player
 eccodes
 ecflow-ui
 echidna
@@ -1247,6 +1253,7 @@ geos
 geoserver
 geph4
 gersemi
+gerust
 getmail6
 gettext
 gexiv2
@@ -1391,7 +1398,6 @@ gopass
 gopass-jsonapi
 gopeed
 gopls
-goplus
 gor
 goread
 goredo
@@ -1565,6 +1571,7 @@ hsd
 html-xml-utils
 html2markdown
 htmldoc
+htmlhint
 htmlq
 htmltest
 htop
@@ -2020,6 +2027,7 @@ libjwt
 libkeccak
 libksba
 liblc3
+liblcf
 liblinear
 liblouis
 liblqr
@@ -2106,6 +2114,7 @@ libstrophe
 libsvgtiny
 libsvm
 libtasn1
+libtatsu
 libtensorflow
 libtickit
 libtiff
@@ -2168,6 +2177,7 @@ libxt
 libxv
 libxvmc
 libxxf86vm
+libzdb
 libzim
 libzzip
 license-eye
@@ -2261,6 +2271,7 @@ macchina
 mackup
 macmon
 mactop
+maeparser
 mafft
 mage
 magic_enum
@@ -2344,6 +2355,7 @@ memtester
 menhir
 mercurial
 mergiraf
+mesa
 meson
 meta-package-manager
 metabase
@@ -2369,6 +2381,7 @@ millet
 mimalloc
 mimirtool
 minder
+mingw-w64
 minica
 minicom
 miniflux
@@ -2387,6 +2400,7 @@ miniupnpc
 minizinc
 minizip
 minizip-ng
+mint
 mintoolkit
 minuit2
 mise
@@ -2749,6 +2763,7 @@ ospray
 osslsigncode
 osv-scanner
 otel-cli
+oterm
 otf2
 otree
 ots
@@ -2927,6 +2942,8 @@ polkit
 polynote
 ponyc
 popeye
+poppler
+poppler-qt5
 portablegl
 porter
 poselib
@@ -3003,6 +3020,7 @@ pueue
 pug
 pugixml
 pulsarctl
+pulumictl
 pumba
 punktf
 pure
@@ -3252,6 +3270,7 @@ safety
 sagittarius-scheme
 samba
 saml2aws
+samply
 samtools
 sbcl
 sbom-tool
@@ -3472,9 +3491,11 @@ spot
 spotbugs
 spotify_player
 spr
+sprocket
 spytrap-adb
 sq
 sql-formatter
+sql-lint
 sql-migrate
 sqlancer
 sqlboiler
@@ -3488,6 +3509,8 @@ sqlmap
 sqlpage
 sqlparse
 sqlx-cli
+sqruff
+squashfs
 squashfuse
 squealer
 squid
@@ -3679,6 +3702,7 @@ tf-summarize
 tfautomv
 tfcmt
 tfel
+tfmcp
 tfmigrate
 tfmv
 tfprovidercheck
@@ -3777,6 +3801,7 @@ trojan-go
 trufflehog
 trurl
 tsduck
+tsnet-serve
 tt
 ttdl
 tty-share
@@ -3784,6 +3809,7 @@ tty-solitaire
 ttyd
 ttyplot
 tuisky
+tun2proxy
 tup
 twine
 twitch-cli
@@ -4044,6 +4070,7 @@ xeol
 xerces-c
 xfig
 xgboost
+xgo
 xh
 xinit
 xk6

@@ -132,6 +132,10 @@
   "bpython": {
     "exclude_packages": ["certifi"]
   },
+  "btcli": {
+    "exclude_packages": ["certifi", "cffi", "cryptography", "numpy", "pycparser", "six"],
+    "extra_packages": ["setuptools"]
+  },
   "buku": {
     "package_name": "buku[server]",
     "exclude_packages": ["certifi", "cryptography"]
@@ -630,6 +634,9 @@
     "exclude_packages": ["cryptography"]
   },
   "osc-cli": {
+    "exclude_packages": ["certifi"]
+  },
+  "oterm": {
     "exclude_packages": ["certifi"]
   },
   "otterdog": {
