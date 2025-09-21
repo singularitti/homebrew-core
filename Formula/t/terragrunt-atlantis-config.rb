@@ -1,8 +1,8 @@
 class TerragruntAtlantisConfig < Formula
   desc "Generate Atlantis config for Terragrunt projects"
   homepage "https://github.com/transcend-io/terragrunt-atlantis-config"
-  url "https://github.com/transcend-io/terragrunt-atlantis-config/archive/refs/tags/v1.20.0.tar.gz"
-  sha256 "b21ee84341cd94ba369c6f0b3124f6d260ed9141129e345c6c64d76b2f54ce91"
+  url "https://github.com/transcend-io/terragrunt-atlantis-config/archive/refs/tags/v2.22.2.tar.gz"
+  sha256 "d569f534f127a9cbec45f68dae9090e89e668f59d3c8e853b914f330f2fcd0d0"
   license "MIT"
 
   bottle do
