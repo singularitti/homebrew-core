@@ -1,19 +1,10 @@
 class Newsboat < Formula
   desc "RSS/Atom feed reader for text terminals"
   homepage "https://newsboat.org/"
+  url "https://newsboat.org/releases/2.41/newsboat-2.41.tar.xz"
+  sha256 "2a98bcdab999f9f453b937cb19127fa978e440b98688d126bf3333e57b2189a4"
   license "MIT"
   head "https://github.com/newsboat/newsboat.git", branch: "master"
-
-  stable do
-    url "https://newsboat.org/releases/2.40/newsboat-2.40.tar.xz"
-    sha256 "1e656636009ffad3aeb87f8d0e4c36d2e913eac155b5f3ec85d00e8287b477c2"
-
-    # Backport fix for Rust 1.89
-    patch do
-      url "https://github.com/newsboat/newsboat/commit/3a018bbf88fef74d1af24c79f5d640c6d753ab16.patch?full_index=1"
-      sha256 "af1f0969b14ae80439e4e14c5126425221eabae285ba15eeb1c63980cd905612"
-    end
-  end
 
   bottle do
     sha256 arm64_tahoe:   "08e61ae78bb180d94bacfd18718e0ff22ec506c1fe3ddc66140ddf43342434fe"
