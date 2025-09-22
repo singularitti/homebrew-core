@@ -1,8 +1,8 @@
 class UtilLinux < Formula
   desc "Collection of Linux utilities"
   homepage "https://github.com/util-linux/util-linux"
-  url "https://mirrors.edge.kernel.org/pub/linux/utils/util-linux/v2.41/util-linux-2.41.1.tar.xz"
-  sha256 "be9ad9a276f4305ab7dd2f5225c8be1ff54352f565ff4dede9628c1aaa7dec57"
+  url "https://mirrors.edge.kernel.org/pub/linux/utils/util-linux/v2.41/util-linux-2.41.2.tar.xz"
+  sha256 "6062a1d89b571a61932e6fc0211f36060c4183568b81ee866cf363bce9f6583e"
   license all_of: [
     "BSD-3-Clause",
     "BSD-4-Clause-UC",
@@ -12,7 +12,6 @@ class UtilLinux < Formula
     "LGPL-2.1-or-later",
     :public_domain,
   ]
-  revision 1
 
   # The directory listing where the `stable` archive is found uses major/minor
   # version directories, where it's necessary to check inside a directory to
