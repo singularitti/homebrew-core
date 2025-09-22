@@ -1,8 +1,8 @@
 class Libetonyek < Formula
   desc "Interpret and import Apple Keynote presentations"
   homepage "https://wiki.documentfoundation.org/DLP/Libraries/libetonyek"
-  url "https://dev-www.libreoffice.org/src/libetonyek/libetonyek-0.1.12.tar.xz"
-  sha256 "b9fa82fbeb8cb7a701101060e4f3e1e4ef7c38f574b2859d3ecbe43604c21f83"
+  url "https://dev-www.libreoffice.org/src/libetonyek/libetonyek-0.1.13.tar.xz"
+  sha256 "032b71cb597edd92a0b270b916188281bc35be55296b263f6817b29adbcb1709"
   license "MPL-2.0"
 
   livecheck do
@@ -31,8 +31,13 @@ class Libetonyek < Formula
   uses_from_macos "zlib"
 
   resource "liblangtag" do
-    url "https://bitbucket.org/tagoh/liblangtag/downloads/liblangtag-0.6.7.tar.bz2"
-    sha256 "5ed6bcd4ae3f3c05c912e62f216cd1a44123846147f729a49fb5668da51e030e"
+    url "https://bitbucket.org/tagoh/liblangtag/downloads/liblangtag-0.6.8.tar.bz2"
+    sha256 "f7e5f859f39d5b13d96ddcf48b3a848a72847b02c8cd25914597084ee0946843"
+
+    livecheck do
+      url "https://bitbucket.org/tagoh/liblangtag.git"
+      regex(/^v?(\d+(?:\.\d+)+)$/i)
+    end
   end
 
   # Apply Fedora patch to fix build with mdds >= 3
